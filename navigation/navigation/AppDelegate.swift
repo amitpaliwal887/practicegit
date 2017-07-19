@@ -25,6 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("complete");
         print("aajtak")
         print("amit branch")
+        print("nitin branch")
         
         // Override point for customization after application launch.
         return true
