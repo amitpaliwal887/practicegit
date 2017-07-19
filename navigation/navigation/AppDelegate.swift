@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         print("done");
         print("tempbranch");
+         print("temp done")
         
         
         // Override point for customization after application launch.
