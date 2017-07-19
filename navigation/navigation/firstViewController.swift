@@ -10,6 +10,11 @@ import UIKit
 
 class firstViewController: UIViewController {
     
+    
+    
+    @IBOutlet weak var lbl: UILabel!
+    var view1 : UIView!
+    
     var k = 10
     let value : [Int]  = [4]
     var myvalue  : [Double] = [10.0]
@@ -17,6 +22,10 @@ class firstViewController: UIViewController {
  
     override func viewDidLoad() {
         super.viewDidLoad()
+        view1 = UIView.init()
+        view1.backgroundColor = UIColor.red
+        view.addSubview(view1)
+        navigationController?.navigationBar.isHidden = true
         myvalue = [12.4];
         k = 23
         name = name + "paliwal"
@@ -42,6 +51,13 @@ class firstViewController: UIViewController {
     
 
         // Do any additional setup after loading the view.
+    }
+    override func viewWillLayoutSubviews() {
+        
+        let f = lbl.frame.origin.y + lbl.frame.size.height
+        
+        view1.frame = CGRect(x: 0, y: f, width: UIScreen.main.bounds.size.width, height: 40)
+        
     }
 
     override func didReceiveMemoryWarning() {
