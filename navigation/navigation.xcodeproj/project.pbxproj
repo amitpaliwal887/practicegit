@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		039DE3FD1F1F75470076A1FB /* tempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039DE3FB1F1F75470076A1FB /* tempViewController.swift */; };
-		039DE3FE1F1F75470076A1FB /* tempViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039DE3FC1F1F75470076A1FB /* tempViewController.xib */; };
 		03C7A9DA1F1EF36100B6E979 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C7A9D91F1EF36100B6E979 /* AppDelegate.swift */; };
 		03C7A9DC1F1EF36100B6E979 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C7A9DB1F1EF36100B6E979 /* ViewController.swift */; };
 		03C7A9DF1F1EF36100B6E979 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C7A9DD1F1EF36100B6E979 /* Main.storyboard */; };
@@ -40,8 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		039DE3FB1F1F75470076A1FB /* tempViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tempViewController.swift; sourceTree = "<group>"; };
-		039DE3FC1F1F75470076A1FB /* tempViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tempViewController.xib; sourceTree = "<group>"; };
 		03C7A9D61F1EF36100B6E979 /* navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C7A9D91F1EF36100B6E979 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03C7A9DB1F1EF36100B6E979 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,8 +107,6 @@
 			children = (
 				03C7A9D91F1EF36100B6E979 /* AppDelegate.swift */,
 				03C7A9DB1F1EF36100B6E979 /* ViewController.swift */,
-				039DE3FB1F1F75470076A1FB /* tempViewController.swift */,
-				039DE3FC1F1F75470076A1FB /* tempViewController.xib */,
 				03C7AA071F1EF38200B6E979 /* firstViewController.swift */,
 				03C7AA081F1EF38200B6E979 /* firstViewController.xib */,
 				03C7AA0B1F1EF39500B6E979 /* SEcondViewController.swift */,
@@ -250,7 +244,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				039DE3FE1F1F75470076A1FB /* tempViewController.xib in Resources */,
 				03C7A9E41F1EF36100B6E979 /* LaunchScreen.storyboard in Resources */,
 				03C7A9E11F1EF36100B6E979 /* Assets.xcassets in Resources */,
 				03C7A9DF1F1EF36100B6E979 /* Main.storyboard in Resources */,
@@ -283,7 +276,6 @@
 				03C7AA0D1F1EF39500B6E979 /* SEcondViewController.swift in Sources */,
 				03C7A9DC1F1EF36100B6E979 /* ViewController.swift in Sources */,
 				03C7A9DA1F1EF36100B6E979 /* AppDelegate.swift in Sources */,
-				039DE3FD1F1F75470076A1FB /* tempViewController.swift in Sources */,
 				03C7AA091F1EF38200B6E979 /* firstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
