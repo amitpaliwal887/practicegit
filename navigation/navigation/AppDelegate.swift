@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = nav
         window?.makeKeyAndVisible()
         print("done");
-        print("tempbranch");
+        print("tempbranchsuccess");
          print("temp done")
         
         
