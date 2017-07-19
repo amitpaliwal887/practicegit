@@ -22,6 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = nav
         window?.makeKeyAndVisible()
         print("done");
+        print("complete");
         
         // Override point for customization after application launch.
         return true
