@@ -22,10 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = nav
         window?.makeKeyAndVisible()
         print("done");
-        print("complete");
-        print("aajtak")
-        print("amit branch")
-        print("nitin branch")
+        
         
         // Override point for customization after application launch.
         return true
