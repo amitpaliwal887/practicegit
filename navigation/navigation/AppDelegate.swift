@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         print("done");
         print("complete");
+        print("aajtak")
         
         // Override point for customization after application launch.
         return true
