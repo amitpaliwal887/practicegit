@@ -13,7 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+
         print("temp done")
+
+        print("amit done")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
